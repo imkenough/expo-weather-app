@@ -3,7 +3,7 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Drawer } from 'expo-router/drawer';
 import { Pressable } from 'react-native';
-import CustomDrawerContent from './_drawerContent';
+import CustomDrawerContent from './components/DrawerContent';
 import './globals.css';
 
 export default function RootLayout() {
